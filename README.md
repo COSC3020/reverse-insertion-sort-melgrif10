@@ -37,3 +37,12 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+Answer: 
+The average time complexity for insertion sort is O(n^2). 
+Since the algorithm goes through each element big theta is O(n+i) where i is the number of swaps the array needs. 
+In a sorted array there would be 0 swaps which would be the best case O(n). 
+However in the average case we could assume that about half the elements in the array would need shifting. 
+To shift the elements we would need n(n-1)/2 comparisons. 
+Since were shifting half the elements the amount of comparisons needed would be n(n-1)/2 * 1/2 =n(n-1)/4.
+This can be simplified to O(n^2).
